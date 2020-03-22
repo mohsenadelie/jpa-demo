@@ -10,11 +10,10 @@ import java.util.List;
 @NoArgsConstructor
 @Getter
 @Setter
-@Entity()
+@Entity
 @SecondaryTable(name = "cover_book",
         pkJoinColumns = @PrimaryKeyJoinColumn(name = "book_id"))
 public class Book extends BaseEntity {
-
     private String title;
 
     @OneToOne

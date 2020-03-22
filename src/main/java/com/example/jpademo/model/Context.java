@@ -12,7 +12,6 @@ import java.util.Map;
 @Setter
 @Embeddable
 public class Context {
-
     @ElementCollection
     private Map<String, Integer> contextMap;
 

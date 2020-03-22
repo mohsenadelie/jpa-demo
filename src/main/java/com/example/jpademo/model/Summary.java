@@ -13,7 +13,6 @@ import javax.persistence.Id;
 @Setter
 @Entity
 public class Summary {
-
     @Id
     @GeneratedValue
     private Long id;
